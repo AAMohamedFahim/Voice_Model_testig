@@ -27,8 +27,8 @@ def STT_rec_voice(headers, model):
 def main():
     st.title("Speech-to-Text Interface")
     
-    whisper = "https://api-inference.huggingface.co/models/facebook/mms-1b-all"
-    MMS = "https://api-inference.huggingface.co/models/openai/whisper-large-v3"
+    MMS = "https://api-inference.huggingface.co/models/facebook/mms-1b-all"
+    whisper = "https://api-inference.huggingface.co/models/openai/whisper-large-v3"
     token = "Bearer " + "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"
     headers = {"Authorization": token}
     
