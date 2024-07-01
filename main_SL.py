@@ -1,10 +1,10 @@
 import streamlit as st
 import requests
 import os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import speech_recognition as sr
 
-load_dotenv()
+# load_dotenv()
 
 def STT_AudioFile(file, model, headers):
     data = file.read()
