@@ -29,7 +29,7 @@ def main():
     
     whisper = "https://api-inference.huggingface.co/models/facebook/mms-1b-all"
     MMS = "https://api-inference.huggingface.co/models/openai/whisper-large-v3"
-    token = "Bearer " + os.environ['HuggingFaceToken']
+    token = "Bearer " + os.environ['HF']
     headers = {"Authorization": token}
     
     model_selection = st.selectbox("Select Your Model", ["Whisper", "MMS"])
